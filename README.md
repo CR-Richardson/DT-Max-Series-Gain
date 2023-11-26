@@ -21,4 +21,4 @@ The repository is organised as follows:
 ## Getting Started
 Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable. 
 
-Note: 'DT_Park.m' takes a lot longer to converge on a value of alpha compared the other criteria.
+Note: `DT_Park.m` takes a lot longer to converge on a value of alpha compared the other criteria.
