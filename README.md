@@ -19,4 +19,6 @@ The repository is organised as follows:
 - `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019). 
 
 ## Getting Started
-Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.  
+Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable. 
+
+Note: 'DT_Park.m' takes a lot longer to converge on a value of alpha compared the other criteria.
