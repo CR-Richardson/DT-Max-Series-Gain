@@ -16,7 +16,8 @@ The repository is organised as follows:
 - `DT_Circle_Like.m` Implementation of the DT Circle-like Criterion - See Theorem 12.
 - `DT_Popov.m` Implementation of the DT Popov Criterion - See Section 6 (Haddad & Bernstein, 1994).
 - `DT_Popov_Like.m` Implementation of the Relaxed (H=I) DT Popov-like Criterion - See Remark 15.
-- `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019). 
+- `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019).
+- `Preprint.pdf` A preprint of the paper.
 
 ## Getting Started
 Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable. 
