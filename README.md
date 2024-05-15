@@ -17,9 +17,12 @@ The repository is organised as follows:
 - `DT_Popov.m` Implementation of the DT Popov Criterion - See Section 6 (Haddad & Bernstein, 1994).
 - `DT_Popov_Like.m` Implementation of the Relaxed (H=I) DT Popov-like Criterion - See Remark 15.
 - `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019).
+- `DT_Aizerman.m` Computes the Nyquist gain (based on the Aizerman Conjecture) for each discrete-time example.
 - `Preprint.pdf` A preprint of the paper.
 
 ## Getting Started
-Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable. 
+- Add all files to the path.
+- Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.
+- Run `DT_Aizerman.m` to repeat the Nyquist gain calculations.
 
 Note: `DT_Park.m` takes much longer to converge on a final value of alpha compared the other criteria.
