@@ -18,7 +18,7 @@ The repository is organised as follows:
 - `DT_Popov_Like.m` Implementation of the Relaxed (H=I) DT Popov-like Criterion - See Remark 15.
 - `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019).
 - `DT_Aizerman.m` Computes the Nyquist gain (based on the Aizerman Conjecture) for each discrete-time example.
-- `Preprint.pdf` A preprint of the paper.
+- `Poster.pdf` Poster associated with the paper.
 
 ## Getting Started
 - Add all files to the path.
