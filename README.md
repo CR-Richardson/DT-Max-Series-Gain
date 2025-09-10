@@ -20,7 +20,6 @@ The `Docs` directory contains associated documents explaining the code at varyin
 - `DT_Popov_Like.m` Implementation of the Relaxed (H=I) DT Popov-like Criterion - See Remark 15.
 - `DT_Park.m` Implementation of the DT Park Criterion - See Lemma 2 and Theorem 1 (Park, 2019).
 - `DT_Aizerman.m` Computes the Nyquist gain (based on the Aizerman Conjecture) for each discrete-time example.
-- `Poster.pdf` Poster associated with the paper.
 
 ## Getting Started
 - Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.
