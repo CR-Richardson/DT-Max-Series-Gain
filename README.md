@@ -8,10 +8,10 @@ Since then, a second, more efficient implementation has been developed using *YA
 * Matthew C Turner (m.c.turner@soton.ac.uk)
 
 ## Prerequisites
-All the code is written in MATLAB. The LMI's are solved using the *Robust Control Toolbox* which must be installed as an add-on.
+All the code is written in MATLAB. The `LMI_Toolbox` implementation requires the *Robust Control Toolbox* to be installed as a MATLAB add-on whereas the `YALMIP_MOSEK` implementation requires [YALMIP](https://yalmip.github.io/download/) and [MOSEK](https://www.mosek.com/) to be installed.
 
 ## Overview
-The repository is organised as follows:
+The `Docs` directory contains associated documents explaining the code at varying levels of detail. The following file structure is used within the `LMI_Toolbox` and `YALMIP_MOSEK` directories:
 - `DT_Max_Series_Gain.m` The master script. It loops through each example, computing the maximum series gain (and # of decision variables) according to each criterion,  and displays the results.
 - `DT_Examples.m` Defines the (A,B,C,D,Ts) parameters of the example systems.
 - `DT_Circle.m` Implementation of the DT Circle Criterion - See Section 5 (Haddad & Bernstein, 1994).
@@ -23,8 +23,6 @@ The repository is organised as follows:
 - `Poster.pdf` Poster associated with the paper.
 
 ## Getting Started
-- Add all files to the path.
 - Run `DT_Max_Series_Gain.m` to repeat the experiments in the paper or select a subset of the examples by defining them in the *Ex_array* variable.
-- Run `DT_Aizerman.m` to repeat the Nyquist gain calculations.
 
 Note: `DT_Park.m` takes much longer to converge on a final value of alpha compared the other criteria.
